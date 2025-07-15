@@ -52,11 +52,11 @@ export const sites = [
       },
   //个人其他站点      
       {
-      id: 'zywede',
-      title: 'zywe.de',
+      id: 'VPS监控站',
+      title: 'VPS监控站',
       description: '个人主页与知识集散地。作为技术爱好者，展示自己的全部项目、实践与分享的中心',
-      shortDesc: 'zywe个人官网',
-      url: 'https://zywe.de/',
+      shortDesc: 'VPS监控站',
+      url: 'https://vps.tlz.app/',
       category: 'Studying',
       icon: '/icons/zywede.png',
       },
