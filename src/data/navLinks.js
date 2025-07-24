@@ -28,11 +28,11 @@ export const categories = [
   },
   {
   id: 'sy',
-  name: '实用网站',
+  name: '实用网站', icon: '/icons/category/studying.svg',
   },
   {
   id: 'cs',
-  name: '测速网站',
+  name: '测速网站', icon: '/icons/category/studying.svg',
   },
   {
     id: 'opensource',
