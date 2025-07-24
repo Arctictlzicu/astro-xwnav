@@ -86,9 +86,9 @@ pnpm build
 ### ✅ 上传/dist目录到服务器,nginx反代,完结撒花🥳
 
 ### 🟢 Vercel自动部署
-[![zywe vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/zywe03/astro-xwnav-theme)
+[![zywe vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Arctictlzicu/astro-xwnav)
 ### 🟢 Cloudflare Workers自动部署
-[![zywe Cloudflare pages](https://deploy.workers.cloudflare.com/button)](https://dash.cloudflare.com/?to=/:account/workers-and-pages/create/deploy-to-workers&repository=https://github.com/zywe03/astro-xwnav-theme)
+[![zywe Cloudflare pages](https://deploy.workers.cloudflare.com/button)](https://dash.cloudflare.com/?to=/:account/workers-and-pages/create/deploy-to-workers&repository=https://github.com/Arctictlzicu/astro-xwnav)
 
 ### 🛜 第一次导入大量网址链接,借助AI快速生成网站导航内容(强烈建议)
 
