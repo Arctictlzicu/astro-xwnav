@@ -160,6 +160,14 @@ export const sites = [
     url: 'https://pdf.tlz.app/',
     category: 'Studying',
   },
+  {
+    id: 'ip-tlz-app',
+    title: '私人网络泄漏测试',
+    description: '一个自托管的网络连接分析工具，用于检测IP地址、DNS及WebRTC泄漏情况。通过私有化部署，确保测试过程的绝对隐私与安全。',
+    shortDesc: '自托管的网络连接分析工具。',
+    url: 'https://ip.tlz.app/',
+    category: 'Studying',
+  },
   // 代理服务
   {
     id: 'web-200121-sbs-cf-proxy',
@@ -250,14 +258,6 @@ export const sites = [
     url: 'https://www.itdog.cn/',
     category: 'sy',
   },
-  {
-    id: 'ipcheck-ing',
-    title: 'ipcheck.ing',
-    description: '一个功能极其全面的网络泄漏测试工具。它不仅能检测IP地址、WebRTC和DNS泄漏，还提供详细的浏览器指纹信息，帮助您全方位评估网络匿名性。',
-    shortDesc: '全面的网络泄漏测试工具。',
-    url: 'https://ipcheck.ing/#/',
-    category: 'sy',
-  },
   // 测速网站
   {
     id: 'fast-com-speed-test',
