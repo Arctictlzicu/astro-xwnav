@@ -57,7 +57,7 @@ export const sites = [
         shortDesc: '注重隐私的私人搜索引擎。',
         url: 'https://sir.red/',
         category: 'Studying',
-      }
+      },
       {
         id: 'vps-tlz-app',
         title: 'Arctic 监控站 (vps.tlz.app)',
@@ -65,7 +65,7 @@ export const sites = [
         shortDesc: '专业的 VPS 监控服务。',
         url: 'https://vps.tlz.app/',
         category: 'Studying',
-      }
+      },
       {
         id: 'dk-tlz-app',
         title: 'Docker 中转服务 (dk.tlz.app)',
@@ -73,7 +73,7 @@ export const sites = [
         shortDesc: '便捷的 Docker 镜像中转服务。',
         url: 'https://dk.tlz.app/',
         category: 'Studying',
-      }
+      },
       {
         id: 'zzmb-tlz-app',
         title: '数据中转服务器 (zzmb.tlz.app)',
@@ -81,7 +81,7 @@ export const sites = [
         shortDesc: '稳定可靠的数据中转服务器。',
         url: 'https://zzmb.tlz.app/',
         category: 'Studying',
-      }
+      },
       {
         id: 'cdn-tlz-app',
         title: '私人CDN系统 (cdn.tlz.app)',
@@ -89,7 +89,7 @@ export const sites = [
         shortDesc: '高效、可定制的私人CDN系统。',
         url: 'https://cdn.tlz.app/',
         category: 'Studying',
-      }
+      },
       {
         id: 'xz-tlz-app-proxy',
         title: '私人网络代理 (xz.tlz.app)',
@@ -97,7 +97,7 @@ export const sites = [
         shortDesc: '安全、私密的网络代理服务。',
         url: 'https://xz.tlz.app/',
         category: 'Studying',
-      }
+      },
       {
         id: 'nas-tlz-app-storage',
         title: '私人存储系统 (nas.tlz.app)',
@@ -105,7 +105,7 @@ export const sites = [
         shortDesc: '安全、便捷的私人云存储。',
         url: 'https://nas.tlz.app/',
         category: 'Studying',
-      }
+      },
       {
         id: 'zz-tlz-app-file-transfer',
         title: '私人文件临时中转 (zz.tlz.app)',
@@ -113,7 +113,7 @@ export const sites = [
         shortDesc: '快速、安全的临时文件分享。',
         url: 'https://zz.tlz.app/',
         category: 'Studying',
-      }
+      },
       {
         id: 'mail-tlz-app-private-mail',
         title: '私人邮件服务器 (mail.tlz.app)',
@@ -121,7 +121,7 @@ export const sites = [
         shortDesc: '安全、私密的独立域名邮箱。',
         url: 'https://mail.tlz.app/',
         category: 'Studying',
-      }    
+      },
       //实用
       {
         id: 'browserleaks-webrtc-leak-test',
@@ -130,7 +130,7 @@ export const sites = [
         shortDesc: '检测您的浏览器 WebRTC IP 泄漏。',
         url: 'https://browserleaks.com/webrtc',
         category: 'sy',
-      }
+      },
       {
         id: 'ipleak-net-dns-detection-platform',
         title: 'DNS 检测平台 (ipleak.net)',
@@ -138,7 +138,7 @@ export const sites = [
         shortDesc: '全面检测您的 DNS 设置和网络身份。',
         url: 'https://ipleak.net/',
         category: 'sy',
-      }
+      },
       {
         id: 'ipinfo-io-ip-information-query',
         title: 'IP 信息查询 (ipinfo.io)',
@@ -146,7 +146,7 @@ export const sites = [
         shortDesc: '快速查询 IP 地址的详细信息。',
         url: 'https://ipinfo.io/',
         category: 'sy',
-      }
+      },
       {
         id: 'tailscale-admin-machines-remote-networking',
         title: '异地组网 (Tailscale)',
@@ -154,7 +154,7 @@ export const sites = [
         shortDesc: '安全、简单地连接您所有设备，实现异地组网。',
         url: 'https://login.tailscale.com/admin/machines',
         category: 'sy',
-      }
+      },
       {
         id: 'windy-global-weather-check',
         title: '全球气象检查 (Windy.com)',
@@ -162,7 +162,7 @@ export const sites = [
         shortDesc: '可视化全球天气，包括风、温度、降水等。',
         url: 'https://www.windy.com/?26.293,112.939,5,p:temp',
         category: 'sy',
-      }
+      },
       {
         id: 'itdog-ip-connection-check',
         title: 'IP 连接线检查 (ITDog.cn)',
@@ -170,7 +170,7 @@ export const sites = [
         shortDesc: '检测IP地址的连通性和网络路径。',
         url: 'https://www.itdog.cn/',
         category: 'sy',
-      }
+      },
       //测速
       {
         id: 'fast-com-speed-test',
@@ -179,7 +179,7 @@ export const sites = [
         shortDesc: '简单快速地测试您的互联网下载速度。',
         url: 'https://fast.com/',
         category: 'cs',
-      }
+      },
       {
         id: 'cloudflare-speed-test',
         title: 'Cloudflare 网速测试',
@@ -187,7 +187,7 @@ export const sites = [
         shortDesc: '全面测试您的下载、上传速度、延迟和抖动。',
         url: 'https://speed.cloudflare.com/',
         category: 'cs',
-      }
+      },
       {
         id: 'speedtest-net',
         title: 'Speedtest.net by Ookla',
@@ -195,7 +195,7 @@ export const sites = [
         shortDesc: '全球最流行的网速测试，提供下载、上传速度和延迟测试。',
         url: 'https://www.speedtest.net/',
         category: 'cs',
-      }
+      },
       {
         id: 'network-panel-traffic-killer',
         title: 'Network Panel - 流量杀手',
@@ -204,7 +204,7 @@ export const sites = [
         url: 'https://ljxi.github.io/NetworkPanel/',
         category: 'network-testing',
         tags: ['cs'],
-      }
+      },
 
       //开源      
       {
