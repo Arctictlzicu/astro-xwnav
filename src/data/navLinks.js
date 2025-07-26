@@ -183,7 +183,7 @@ export const sites = [
     title: '基于CF的网页代理',
     description: '基于 Cloudflare Workers 构建的高性能网页代理，能助您轻松访问全球互联网资源，同时得益于 CF 的全球网络，实现更快的加载速度与更好的隐私保护。',
     shortDesc: '基于 CF 的高性能网页代理。',
-    url: 'https://web.200121.sbs/',
+    url: 'https://web.200121.sbs/default/https/sir.red/',
     category: 'proxy',
   },
   {
@@ -191,7 +191,7 @@ export const sites = [
     title: '美国网页代理',
     description: '提供位于美国的私人网页代理，专为访问受地理位置限制的网页或学术资源而设，有效保护您的网络匿名性。',
     shortDesc: '美国私人网络代理出口。',
-    url: 'https://us.tlz.app/',
+    url: 'https://us.tlz.app/default/https/sir.red/',
     category: 'proxy',
   },
   {
@@ -199,7 +199,7 @@ export const sites = [
     title: '日本网页代理',
     description: '提供位于日本的私人网页代理，专为访问受地理位置限制的网页或学术资源而设，有效保护您的网络匿名性。',
     shortDesc: '日本私人网络代理出口。',
-    url: 'https://jp.tlz.app/',
+    url: 'https://jp.tlz.app/default/https/sir.red/',
     category: 'proxy',
   },
   {
@@ -207,7 +207,7 @@ export const sites = [
     title: '台湾网页代理',
     description: '提供位于台湾的的私人网页代理，专为访问受地理位置限制的网页或学术资源而设，有效保护您的网络匿名性。',
     shortDesc: '台湾私人网络代理出口。',
-    url: 'https://tw.tlz.app/',
+    url: 'https://tw.tlz.app/default/https/sir.red/',
     category: 'proxy',
   },
   {
