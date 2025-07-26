@@ -168,13 +168,13 @@ export const sites = [
     url: 'https://ip.tlz.app/',
     category: 'Studying',
   },
-{
-  "id": "tv-tlz-app-private-video-site",
-  "title": "私人部署的影视站",
-  "description": "影视站: 主要提供电影（影视）和电视节目内容的网站。"
-  "url": "https://tv.tlz.app/",
-  "category": "Studying",
-},
+  {
+    "id": "tv-tlz-app-private-video-site",
+    "title": "私人部署的影视站",
+    "description": "影视站: 主要提供电影和电视节目内容的网站。"，
+    "url": "https://tv.tlz.app/",
+    "category": "Studying",
+  },
 
   // 代理服务
   {
