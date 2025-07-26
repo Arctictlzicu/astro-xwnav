@@ -42,7 +42,7 @@ export const sites = [
   // 个人站点
   {
     id: 'sir-red',
-    title: 'Sir.red',
+    title: '私人搜索引擎',
     description: '一个专注于隐私保护的私人搜索引擎，承诺不追踪、不收集个人信息，提供纯净、无广告的搜索体验。',
     shortDesc: '隐私至上的搜索引擎。',
     url: 'https://sir.red/',
@@ -50,7 +50,7 @@ export const sites = [
   },
   {
     id: 'vps-tlz-app',
-    title: 'Arctic 监控站',
+    title: 'Arctic监控站',
     description: '专业的服务器与网站监控平台，提供实时性能追踪、网络状态告警与资源使用分析，通过直观仪表盘确保您的服务稳定在线。',
     shortDesc: '全方位服务器监控平台。',
     url: 'https://vps.tlz.app/',
@@ -58,7 +58,7 @@ export const sites = [
   },
   {
     id: 'dk-tlz-app',
-    title: 'Docker 中转服务',
+    title: 'Docker中转服务',
     description: '为开发者设计的 Docker 镜像中转服务，旨在解决网络限制问题，加速国内外 Docker Hub 镜像的拉取与推送，显著提升CI/CD与本地开发效率。',
     shortDesc: 'Docker 镜像加速与中转。',
     url: 'https://dk.tlz.app/',
@@ -66,9 +66,9 @@ export const sites = [
   },
   {
     id: 'zzmb-tlz-app',
-    title: '数据中转服务器',
+    title: '数据转发服务器',
     description: '稳定、高效的数据中转服务器，专注于提供安全的跨区域数据传输解决方案，适用于 API 代理、数据同步与大文件安全分发。',
-    shortDesc: '安全高效的数据中转服务。',
+    shortDesc: '安全高效的数据转发服务。',
     url: 'https://zzmb.tlz.app/',
     category: 'Studying',
   },
@@ -76,7 +76,7 @@ export const sites = [
     id: 'cdn-tlz-app',
     title: '私人CDN系统',
     description: '一套可自部署的私人内容分发网络（CDN）系统，赋予您对缓存策略与流量分发的精细化控制权，为您的网站与应用提供全球加速。',
-    shortDesc: '可自部署的私人 CDN 系统。',
+    shortDesc: '自部署的私人 CDN 系统。',
     url: 'https://cdn.tlz.app/',
     category: 'Studying',
   },
@@ -84,7 +84,7 @@ export const sites = [
     id: 'nas-tlz-app-storage',
     title: '私人存储系统',
     description: '安全、可自托管的个人云存储解决方案，让您的照片、文档等数字资产尽在掌控，随时随地通过多设备加密访问。',
-    shortDesc: '可自托管的个人云盘。',
+    shortDesc: '自托管的个人云盘。',
     url: 'https://nas.tlz.app/',
     category: 'Studying',
   },
@@ -106,7 +106,7 @@ export const sites = [
   },
   {
     id: '2211-host',
-    title: '2211.host',
+    title: '私人主DNS服务器',
     description: '作为个人网络架构的核心，此主DNS服务器负责管理所有私人域名的解析记录，提供稳定、快速且可定制的域名解析服务。',
     shortDesc: '私人主DNS服务器。',
     url: 'https://2211.host/',
@@ -114,7 +114,7 @@ export const sites = [
   },
   {
     id: 'dns-202229-com',
-    title: 'dns.202229.com',
+    title: '私人从DNS服务器',
     description: '作为主DNS服务器的冗余备份，此从DNS服务器自动同步所有解析记录，确保在主服务器不可用时，域名解析服务依然稳定可靠。',
     shortDesc: '私人从DNS服务器。',
     url: 'https://dns.202229.com/',
@@ -138,7 +138,7 @@ export const sites = [
   },
   {
     id: 'ai-api-tlz-app',
-    title: 'Gemini API 中转',
+    title: '私人Gemini API 中转',
     description: '为自托管的AI应用提供统一的Gemini API调用接口。通过此中转服务，可以集中管理API密钥、控制访问权限并简化不同应用对Gemini模型的调用。',
     shortDesc: '私人 Gemini API 代理接口。',
     url: 'https://ai.api.tlz.app/',
@@ -170,9 +170,8 @@ export const sites = [
   },
 {
   "id": "tv-tlz-app-private-video-site",
-  "title": "tv.tlz.app - 私人部署的影视站",
-  "description": "tv.tlz.app 被描述为一个“私人部署的影视站”。这通常意味着：\n\n*   **私人部署**: 该网站不是一个公开的、由大型公司运营的流媒体平台，而是由个人或小团队在自己的服务器上搭建和维护的。这可能意味着它没有像 Netflix 或 Disney+ 那样的商业支持和内容库。\n*   **影视站**: 主要提供电影（影视）和电视节目内容的网站。\n*   **可能的功能**:\n    *   **内容聚合**: 收集并提供来自不同来源的电影和电视节目链接或播放。\n    *   **个性化观看**: 用户可能可以上传自己的视频，或者该站点为特定的小群体（例如朋友、家人）提供服务。\n    *   **规避版权限制**: 有些私人影视站可能会提供未经授权的内容，以规避版权限制，但这存在法律风险。\n    *   **无广告或特定广告**: 相较于商业平台，私人部署的站点可能没有广告，或者有其自定义的广告模式。\n    *   **社区驱动**: 有时这类站点会有一个用户社区，共同贡献内容或提供建议。\n\n“私人部署”的性质也可能意味着该站点的稳定性和内容的可持续性不如商业平台，并且存在一定的法律和技术风险。",
-  "shortDesc": "一个由个人或小团队私下搭建和维护的，提供影视内容访问的网站。",
+  "title": "私人部署的影视站",
+  "description": "影视站: 主要提供电影（影视）和电视节目内容的网站。"
   "url": "https://tv.tlz.app/",
   "category": "Studying",
 },
@@ -180,7 +179,7 @@ export const sites = [
   // 代理服务
   {
     id: 'web-200121-sbs-cf-proxy',
-    title: '网页代理 (CF)',
+    title: '基于CF的网页代理',
     description: '基于 Cloudflare Workers 构建的高性能网页代理，能助您轻松访问全球互联网资源，同时得益于 CF 的全球网络，实现更快的加载速度与更好的隐私保护。',
     shortDesc: '基于 CF 的高性能网页代理。',
     url: 'https://web.200121.sbs/',
@@ -189,15 +188,15 @@ export const sites = [
   {
     id: 'us-tlz-app-us-web-proxy',
     title: '美国网页代理',
-    description: '提供位于美国的私人网络代理出口，专为访问受地理位置限制的流媒体、电商平台或学术资源而设，有效保护您的网络匿名性。',
+    description: '提供位于美国的私人网页代理，专为访问受地理位置限制的网页或学术资源而设，有效保护您的网络匿名性。',
     shortDesc: '美国私人网络代理出口。',
     url: 'https://us.tlz.app/',
     category: 'proxy',
   },
   {
     id: 'jp-tlz-app-jp-web-proxy',
-    title: '日本网络代理',
-    description: '提供位于日本的私人网络代理出口，用于访问日本地区限定的流媒体、游戏或新闻内容，同时增强在线隐私。',
+    title: '日本网页代理',
+    description: '提供位于日本的私人网页代理，专为访问受地理位置限制的网页或学术资源而设，有效保护您的网络匿名性。',
     shortDesc: '日本私人网络代理出口。',
     url: 'https://jp.tlz.app/',
     category: 'proxy',
@@ -205,7 +204,7 @@ export const sites = [
   {
     id: 'tw-tlz-app-tw-web-proxy',
     title: '台湾网页代理',
-    description: '提供位于台湾的私人网络代理出口，主要用于访问台湾地区限制的流媒体服务、新闻网站或特定应用。',
+    description: '提供位于台湾的的私人网页代理，专为访问受地理位置限制的网页或学术资源而设，有效保护您的网络匿名性。',
     shortDesc: '台湾私人网络代理出口。',
     url: 'https://tw.tlz.app/',
     category: 'proxy',
