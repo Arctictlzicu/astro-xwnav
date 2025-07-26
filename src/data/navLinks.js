@@ -24,10 +24,10 @@ export const categories = [
     id: 'proxy',
     name: '代理服务', icon: '/icons/category/studying.svg',
   },
-  {
-    id: 'opensource',
-    name: '开源平台', icon: '/icons/category/opensource.svg',
-  },
+#  {
+#    id: 'opensource',
+#    name: '开源平台', icon: '/icons/category/opensource.svg',
+#  },
   {
     id: 'pages',
     name: '静态部署平台', icon: '/icons/category/pages.svg',
