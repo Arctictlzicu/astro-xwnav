@@ -168,6 +168,14 @@ export const sites = [
     url: 'https://ip.tlz.app/',
     category: 'Studying',
   },
+  {
+    id: 'al-tlz-app',
+    title: '私人网盘聚合',
+    description: '一个自托管的网盘聚合平台，能够挂载和管理多种云存储服务，将它们整合在一个统一的界面下，方便地进行文件浏览、下载和管理。',
+    shortDesc: '统一管理多个云盘资源。',
+    url: 'https://al.tlz.app/',
+    category: 'Studying',
+  },
   {
     id: "tv-tlz-app-private-video-site",
     title: "私人影视站",
@@ -183,7 +191,7 @@ export const sites = [
     title: '基于CF的网页代理',
     description: '基于 Cloudflare Workers 构建的高性能网页代理，能助您轻松访问全球互联网资源，同时得益于 CF 的全球网络，实现更快的加载速度与更好的隐私保护。',
     shortDesc: '基于 CF 的高性能网页代理。',
-    url: 'https://web.200121.sbs/default/https/sir.red/',
+    url: 'https://web.200121.sbs/',
     category: 'proxy',
   },
   {
@@ -191,7 +199,7 @@ export const sites = [
     title: '美国网页代理',
     description: '提供位于美国的私人网页代理，专为访问受地理位置限制的网页或学术资源而设，有效保护您的网络匿名性。',
     shortDesc: '美国私人网络代理出口。',
-    url: 'https://us.tlz.app/default/https/sir.red/',
+    url: 'https://us.tlz.app/',
     category: 'proxy',
   },
   {
@@ -199,7 +207,7 @@ export const sites = [
     title: '日本网页代理',
     description: '提供位于日本的私人网页代理，专为访问受地理位置限制的网页或学术资源而设，有效保护您的网络匿名性。',
     shortDesc: '日本私人网络代理出口。',
-    url: 'https://jp.tlz.app/default/https/sir.red/',
+    url: 'https://jp.tlz.app/',
     category: 'proxy',
   },
   {
@@ -207,7 +215,7 @@ export const sites = [
     title: '台湾网页代理',
     description: '提供位于台湾的的私人网页代理，专为访问受地理位置限制的网页或学术资源而设，有效保护您的网络匿名性。',
     shortDesc: '台湾私人网络代理出口。',
-    url: 'https://tw.tlz.app/default/https/sir.red/',
+    url: 'https://tw.tlz.app/',
     category: 'proxy',
   },
   {
