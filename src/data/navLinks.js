@@ -180,10 +180,27 @@ export const sites = [
     id: "tv-tlz-app-private-video-site",
     title: "私人影视站",
     description: "一个自托管的私人影视站，用于整理和播放在线视频资源，打造个人专属的影音媒体库。",
-    shortDesc: "自托管的私人影音库。",
+              shortDesc: "自托管的私人影音库。",
     url: "https://tv.tlz.app/",
     category: "Studying",
   },
+  {
+    id: "zd-tlz-app",
+    title: "私人主账单管理",
+    description: "一套自托管的私人账单管理与记账系统。用于记录日常收支、管理个人财务，所有数据私有化存储，确保财务信息的绝对安全。",
+    shortDesc: "自托管的个人记账应用。",
+    url: "https://zd.tlz.app/",
+    category: "Studying",
+  },
+  {
+    id: "zd-tlz0v0-com",
+    title: "私人从账单管理",
+    description: "一个自托管的私人账单管理与记账系统。用于记录日常收支、管理个人财务，所有数据私有化存储，确保财务信息的绝对安全。",
+    shortDesc: "自托管的个人记账应用。",
+    url: "https://zd.tlz0v0.com/",
+    category: "Studying",
+  },
+
 
   // 代理服务
   {
