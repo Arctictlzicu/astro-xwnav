@@ -8,7 +8,7 @@ import LogoName from '../components/LogoName.astro';
 ---
 <div id="sidebar" class="fixed top-0 left-0 bottom-0 w-[90%] xs:w-[85%] sm:w-[70%] md:w-[40%] lg:w-[30%] xl:w-1/4 max-w-sm bg-white/95 dark:bg-gray-800/95 backdrop-blur-md shadow-xl z-50 transform -translate-x-full transition-all duration-300 ease-out overflow-hidden border-r border-gray-100 dark:border-gray-700 flex flex-col">
   <div class="flex-shrink-0 p-3 sm:p-4 flex justify-between items-center border-b border-gray-100 dark:border-gray-700 bg-white/95 dark:bg-gray-800/95">
-    <LogoName />
+    {/* <LogoName /> */}
     <button
       id="sidebar-close"
       class="p-2 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-all duration-200 touch-manipulation"
@@ -57,6 +57,7 @@ import LogoName from '../components/LogoName.astro';
       </div>
     </div>
     <!-- 联系我们按钮 -记得修改 -->
+    {/*
     <div id="make-website-btn" class="mt-auto" style="padding-top:16px;">
       <a
         href="https://t.me/zywe_private_bot"
@@ -70,6 +71,7 @@ import LogoName from '../components/LogoName.astro';
         <span class="text-sm sm:text-base">联系我们</span>
       </a>
     </div>
+    */}
   </div>
 </div>
 <div id="sidebar-backdrop" class="fixed inset-0 backdrop-blur-sm bg-white/30 dark:bg-black/20 z-40 hidden transition-all duration-300" style="pointer-events: auto;"></div>
