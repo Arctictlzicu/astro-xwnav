@@ -47,6 +47,7 @@ export const sites = [
     shortDesc: '隐私至上的搜索引擎。',
     url: 'https://sir.red/',
     category: 'Studying',
+    icon: '/icons/logo.png',
   },
   {
     id: 'vps-tlz-app',
@@ -55,6 +56,7 @@ export const sites = [
     shortDesc: '全方位服务器监控平台。',
     url: 'https://vps.tlz.app/',
     category: 'Studying',
+    icon: '/icons/logo.png',
   },
   {
     id: 'dk-tlz-app',
@@ -63,6 +65,7 @@ export const sites = [
     shortDesc: 'Docker 镜像加速与中转。',
     url: 'https://dk.tlz.app/',
     category: 'Studying',
+    icon: '/icons/logo.png',
   },
   {
     id: 'zzmb-tlz-app',
@@ -71,6 +74,7 @@ export const sites = [
     shortDesc: '安全高效的数据转发服务。',
     url: 'https://zzmb.tlz.app/',
     category: 'Studying',
+    icon: '/icons/logo.png',
   },
   {
     id: 'cdn-tlz-app',
@@ -79,6 +83,7 @@ export const sites = [
     shortDesc: '自部署的私人 CDN 系统。',
     url: 'https://cdn.tlz.app/',
     category: 'Studying',
+    icon: '/icons/logo.png',
   },
   {
     id: 'nas-tlz-app-storage',
@@ -87,6 +92,7 @@ export const sites = [
     shortDesc: '自托管的个人云盘。',
     url: 'https://nas.tlz.app/',
     category: 'Studying',
+    icon: '/icons/logo.png',
   },
   {
     id: 'zz-tlz-app-file-transfer',
@@ -95,6 +101,7 @@ export const sites = [
     shortDesc: '注重隐私的临时文件分享。',
     url: 'https://zz.tlz.app/',
     category: 'Studying',
+    icon: '/icons/logo.png',
   },
   {
     id: 'mail-tlz-app-private-mail',
@@ -103,6 +110,7 @@ export const sites = [
     shortDesc: '独立、安全的域名邮箱。',
     url: 'https://mail.tlz.app/',
     category: 'Studying',
+    icon: '/icons/logo.png',
   },
   {
     id: '2211-host',
@@ -111,6 +119,7 @@ export const sites = [
     shortDesc: '私人主DNS服务器。',
     url: 'https://2211.host/',
     category: 'Studying',
+    icon: '/icons/logo.png',
   },
   {
     id: 'dns-202229-com',
@@ -119,6 +128,7 @@ export const sites = [
     shortDesc: '私人从DNS服务器。',
     url: 'https://dns.202229.com/',
     category: 'Studying',
+    icon: '/icons/logo.png',
   },
   {
     id: 'ai-tlz-app',
@@ -127,6 +137,7 @@ export const sites = [
     shortDesc: '自托管的AI聊天机器人。',
     url: 'https://ai.tlz.app/',
     category: 'Studying',
+    icon: '/icons/logo.png',
   },
   {
     id: '202229-com',
@@ -135,6 +146,7 @@ export const sites = [
     shortDesc: '自托管的Gemini聊天机器人。',
     url: 'https://202229.com/',
     category: 'Studying',
+    icon: '/icons/logo.png',
   },
   {
     id: 'ai-api-tlz-app',
@@ -143,6 +155,7 @@ export const sites = [
     shortDesc: '私人 Gemini API 代理接口。',
     url: 'https://ai.api.tlz.app/',
     category: 'Studying',
+    icon: '/icons/logo.png',
   },
   {
     id: 'lx-tlz-app',
@@ -151,6 +164,7 @@ export const sites = [
     shortDesc: '自托管的单词记忆工具。',
     url: 'https://lx.tlz.app/',
     category: 'Studying',
+    icon: '/icons/logo.png',
   },
   {
     id: 'pdf-tlz-app',
@@ -159,6 +173,7 @@ export const sites = [
     shortDesc: '自托管的在线PDF工具箱。',
     url: 'https://pdf.tlz.app/',
     category: 'Studying',
+    icon: '/icons/logo.png',
   },
   {
     id: 'ip-tlz-app',
@@ -167,40 +182,44 @@ export const sites = [
     shortDesc: '自托管的网络连接分析工具。',
     url: 'https://ip.tlz.app/',
     category: 'Studying',
+    icon: '/icons/logo.png',
   },
-  {
-    id: 'al-tlz-app',
-    title: '私人网盘聚合',
-    description: '一个自托管的网盘聚合平台，能够挂载和管理多种云存储服务，将它们整合在一个统一的界面下，方便地进行文件浏览、下载和管理。',
-    shortDesc: '统一管理多个云盘资源。',
-    url: 'https://al.tlz.app/',
-    category: 'Studying',
-  },
+  {
+    id: 'al-tlz-app',
+    title: '私人网盘聚合',
+    description: '一个自托管的网盘聚合平台，能够挂载和管理多种云存储服务，将它们整合在一个统一的界面下，方便地进行文件浏览、下载和管理。',
+    shortDesc: '统一管理多个云盘资源。',
+    url: 'https://al.tlz.app/',
+    category: 'Studying',
+    icon: '/icons/logo.png',
+  },
   {
     id: "tv-tlz-app-private-video-site",
     title: "私人影视站",
     description: "一个自托管的私人影视站，用于整理和播放在线视频资源，打造个人专属的影音媒体库。",
-              shortDesc: "自托管的私人影音库。",
+    shortDesc: "自托管的私人影音库。",
     url: "https://tv.tlz.app/",
     category: "Studying",
+    icon: '/icons/logo.png',
   },
-  {
-    id: "zd-tlz-app",
-    title: "私人主账单管理",
-    description: "一套自托管的私人账单管理与记账系统。用于记录日常收支、管理个人财务，所有数据私有化存储，确保财务信息的绝对安全。",
-    shortDesc: "自托管的个人记账应用。",
-    url: "https://zd.tlz.app/",
-    category: "Studying",
-  },
-  {
-    id: "zd-tlz0v0-com",
-    title: "私人从账单管理",
-    description: "一个自托管的私人账单管理与记账系统。用于记录日常收支、管理个人财务，所有数据私有化存储，确保财务信息的绝对安全。",
-    shortDesc: "自托管的个人记账应用。",
-    url: "https://zd.tlz0v0.com/",
-    category: "Studying",
-  },
-
+  {
+    id: "zd-tlz-app",
+    title: "私人主账单管理",
+    description: "一套自托管的私人账单管理与记账系统。用于记录日常收支、管理个人财务，所有数据私有化存储，确保财务信息的绝对安全。",
+    shortDesc: "自托管的个人记账应用。",
+    url: "https://zd.tlz.app/",
+    category: "Studying",
+    icon: '/icons/logo.png',
+  },
+  {
+    id: "zd-tlz0v0-com",
+    title: "私人从账单管理",
+    description: "一个自托管的私人账单管理与记账系统。用于记录日常收支、管理个人财务，所有数据私有化存储，确保财务信息的绝对安全。",
+    shortDesc: "自托管的个人记账应用。",
+    url: "https://zd.tlz0v0.com/",
+    category: "Studying",
+    icon: '/icons/logo.png',
+  },
 
   // 代理服务
   {
@@ -210,6 +229,7 @@ export const sites = [
     shortDesc: '基于 CF 的高性能网页代理。',
     url: 'https://web.200121.sbs/',
     category: 'proxy',
+    icon: '/icons/logo.png',
   },
   {
     id: 'us-tlz-app-us-web-proxy',
@@ -218,6 +238,7 @@ export const sites = [
     shortDesc: '美国私人网络代理出口。',
     url: 'https://us.tlz.app/',
     category: 'proxy',
+    icon: '/icons/logo.png',
   },
   {
     id: 'jp-tlz-app-jp-web-proxy',
@@ -226,6 +247,7 @@ export const sites = [
     shortDesc: '日本私人网络代理出口。',
     url: 'https://jp.tlz.app/',
     category: 'proxy',
+    icon: '/icons/logo.png',
   },
   {
     id: 'tw-tlz-app-tw-web-proxy',
@@ -234,6 +256,7 @@ export const sites = [
     shortDesc: '台湾私人网络代理出口。',
     url: 'https://tw.tlz.app/',
     category: 'proxy',
+    icon: '/icons/logo.png',
   },
   {
     id: 'xz-tlz-app-proxy',
@@ -242,8 +265,9 @@ export const sites = [
     shortDesc: '安全、私密的网络代理。',
     url: 'https://xz.tlz.app/',
     category: 'proxy',
+    icon: '/icons/logo.png',
   },
-  // 实用网站
+  // 实用网站 (这部分图标保持不变)
   {
     id: 'browserleaks-webrtc-leak-test',
     title: 'WebRTC 泄漏测试',
@@ -292,7 +316,7 @@ export const sites = [
     url: 'https://www.itdog.cn/',
     category: 'sy',
   },
-  // 测速网站
+  // 测速网站 (这部分图标保持不变)
   {
     id: 'fast-com-speed-test',
     title: 'Fast.com 网速测试',
@@ -325,7 +349,7 @@ export const sites = [
     url: 'https://ljxi.github.io/NetworkPanel/',
     category: 'cs',
   },
-  // 静态部署平台
+  // 静态部署平台 (这部分图标保持不变)
   {
     id: 'cloudflare-pages',
     title: 'Cloudflare Pages',
