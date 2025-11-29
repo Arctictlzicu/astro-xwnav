@@ -377,7 +377,13 @@ export const sites = [
     shortDesc: '高质量高性能云实例，全球优化网络。',
     url: 'https://rfchost.com/',
     category: 'vps',
-    icon: '/icons/logo.png',
+  {
+    id: 'racknerd',
+    title: 'RackNerd',
+    description: 'RackNerd 是一家知名的美国VPS提供商，以其高性价比的KVM VPS和独立服务器而闻名。提供多种数据中心选择，包括洛杉矶、圣何塞、西雅图、芝加哥、达拉斯、新泽西、亚特兰大等。支持多种操作系统，提供DDoS防护，并接受支付宝、微信支付等多种付款方式。',
+    shortDesc: '高性价比美国VPS和独立服务器。',
+    url: 'https://racknerd.com/',
+    category: 'vps',
   },
   {
     id: 'racknerd',
@@ -386,16 +392,6 @@ export const sites = [
     shortDesc: '高性价比美国VPS和独立服务器。',
     url: 'https://racknerd.com/',
     category: 'vps',
-    icon: '/icons/logo.png',
-  },
-  {
-    id: 'bigchick',
-    title: '鸡仔云',
-    description: '鸡仔云提供成都大带宽和硬盘容量的VPS服务，并提供IPLC专线，确保用户获得稳定、高速的网络连接和充足的存储空间。',
-    shortDesc: '成都大带宽、大容量硬盘，IPLC专线。',
-    url: 'https://bigchick.xyz/',
-    category: 'vps',
-    icon: '/icons/logo.png',
   },
   {
     id: 'digitalvirt',
@@ -404,7 +400,6 @@ export const sites = [
     shortDesc: '高性能VPS和独立服务器，优质网络线路。',
     url: 'https://digitalvirt.com/',
     category: 'vps',
-    icon: '/icons/logo.png',
   },
   {
     id: 'bitsflow',
@@ -413,7 +408,6 @@ export const sites = [
     shortDesc: '高性能云服务器和网络解决方案。',
     url: 'https://bitsflow.cloud/',
     category: 'vps',
-    icon: '/icons/logo.png',
   },
   {
     id: 'bigchick-new',
@@ -422,7 +416,6 @@ export const sites = [
     shortDesc: '高性价比VPS服务提供商。',
     url: 'https://bigchick.xyz/',
     category: 'vps',
-    icon: '/icons/logo.png',
   },
   {
     id: 'akile',
@@ -431,7 +424,6 @@ export const sites = [
     shortDesc: '高性能云服务器和网络解决方案。',
     url: 'https://akile.io/',
     category: 'vps',
-    icon: '/icons/logo.png',
   },
   {
     id: 'yin-net',
@@ -440,7 +432,6 @@ export const sites = [
     shortDesc: '稳定可靠的VPS服务。',
     url: 'https://www.yin-net.com/',
     category: 'vps',
-    icon: '/icons/logo.png',
   },
   {
     id: 'dataonline',
@@ -449,7 +440,6 @@ export const sites = [
     shortDesc: '越南本地高性能VPS服务。',
     url: 'https://dataonline.vn/',
     category: 'vps',
-    icon: '/icons/logo.png',
   },
   {
     id: 'yecaoyun',
@@ -458,7 +448,6 @@ export const sites = [
     shortDesc: '高性价比VPS和独立服务器。',
     url: 'https://yecaoyun.com/',
     category: 'vps',
-    icon: '/icons/logo.png',
   },
   {
     id: 'claw-cloud',
@@ -467,7 +456,6 @@ export const sites = [
     shortDesc: '高性能云服务器和网络解决方案。',
     url: 'https://claw.cloud/',
     category: 'vps',
-    icon: '/icons/logo.png',
   },
   {
     id: 'vps-town',
@@ -476,6 +464,5 @@ export const sites = [
     shortDesc: '高性价比VPS服务提供商。',
     url: 'https://vps.town/',
     category: 'vps',
-    icon: '/icons/logo.png',
   },
 ];
