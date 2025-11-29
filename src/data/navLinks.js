@@ -226,15 +226,14 @@ export const sites = [
   },
 
   // 代理服务
-//   {
-//     id: 'web-200121-sbs-cf-proxy',
-//     title: '基于CF的网页代理',
-//     description: '基于 Cloudflare Workers 构建的高性能网页代理，能助您轻松访问全球互联网资源，同时得益于 CF 的全球网络，实现更快的加载速度与更好的隐私保护。',
-//     shortDesc: '基于 CF 的高性能网页代理。',
-//     url: 'https://web.200121.sbs/',
-//     category: 'proxy',
-//     icon: '/icons/logo.png',
-//   },
+  {
+    id: 'web-200121-sbs-cf-proxy',
+    title: '基于CF的网页代理',
+    description: '基于 Cloudflare Workers 构建的高性能网页代理，能助您轻松访问全球互联网资源，同时得益于 CF 的全球网络，实现更快的加载速度与更好的隐私保护。',
+    shortDesc: '基于 CF 的高性能网页代理。',
+    url: 'https://web.200121.sbs/',
+    category: 'proxy',
+    icon: '/icons/logo.png',
   {
     id: 'us-tlz-app-us-web-proxy',
     title: '美国网页代理',
