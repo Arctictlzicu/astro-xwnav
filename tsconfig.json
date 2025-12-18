@@ -8,6 +8,7 @@
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
+    "module": "esnext",
     "moduleResolution": "bundler",
     "baseUrl": ".",
     "paths": {

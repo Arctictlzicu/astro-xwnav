@@ -21,12 +21,40 @@ const pageDescription = siteDescription;
       <h1 class="sr-only">{pageTitle}</h1> {/* 使用 sr-only 使其在视觉上隐藏，但对屏幕阅读器和搜索引擎可见 */}
       <HNavbar />
       <div class="mb-10">
-        <iframe
-          src="http://ai.tlz.xxx/chatbot/OJPkg2slzzIkWWCM"
-          style="width: 100%; height: 100%; min-height: 700px"
-          frameborder="0"
-          allow="microphone">
-        </iframe>
+        <script>
+          window.difyChatbotConfig = {
+            token: 'OJPkg2slzzIkWWCM',
+            baseUrl: 'https://ai.tlz.xxx',
+            inputs: {
+              // You can define the inputs from the Start node here
+              // key is the variable name
+              // e.g.
+              // name: "NAME"
+            },
+            systemVariables: {
+              // user_id: 'YOU CAN DEFINE USER ID HERE',
+              // conversation_id: 'YOU CAN DEFINE CONVERSATION ID HERE, IT MUST BE A VALID UUID',
+            },
+            userVariables: {
+              // avatar_url: 'YOU CAN DEFINE USER AVATAR URL HERE',
+              // name: 'YOU CAN DEFINE USER NAME HERE',
+            },
+          }
+        </script>
+        <script
+          src="https://ai.tlz.xxx/embed.min.js"
+          id="OJPkg2slzzIkWWCM"
+          defer>
+        </script>
+        <style>
+          #dify-chatbot-bubble-button {
+            background-color: #1C64F2 !important;
+          }
+          #dify-chatbot-bubble-window {
+            width: 24rem !important;
+            height: 40rem !important;
+          }
+        </style>
       </div>
       {categories.map(category => (
         <section class="mb-10" id={category.id}>
