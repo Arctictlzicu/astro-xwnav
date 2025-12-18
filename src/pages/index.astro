@@ -20,6 +20,14 @@ const pageDescription = siteDescription;
       {/* 添加 H1 标签 */}
       <h1 class="sr-only">{pageTitle}</h1> {/* 使用 sr-only 使其在视觉上隐藏，但对屏幕阅读器和搜索引擎可见 */}
       <HNavbar />
+      <div class="mb-10">
+        <iframe
+          src="http://ai.tlz.xxx/chatbot/OJPkg2slzzIkWWCM"
+          style="width: 100%; height: 100%; min-height: 700px"
+          frameborder="0"
+          allow="microphone">
+        </iframe>
+      </div>
       {categories.map(category => (
         <section class="mb-10" id={category.id}>
           <div class="max-w-7xl mx-auto">
@@ -38,7 +46,6 @@ const pageDescription = siteDescription;
                     description={site.description}
                     shortDesc={site.shortDesc}
                     url={site.url}
-                    icon={site.icon}
                     category={site.category}
                   />
                 ))
@@ -52,90 +59,85 @@ const pageDescription = siteDescription;
 {/*  <Footer /> */}
 </MainLayout>
 <script>
-  const searchInput = document.getElementById('search-input') as HTMLInputElement;
+  const searchInput = document.getElementById('search-input');
   const searchResults = document.getElementById('search-results');
   const allCards = document.querySelectorAll('.card');
-  interface SearchResult {
-    title: string;
-    description: string;
-    categoryId: string;
-    categoryName: string;
-    url: string;
-    icon: string;
-  }
-  function getCategoryNameById(categoryId: string): string {
+  function getCategoryNameById(categoryId) {
     const categoryElement = document.querySelector(`section#${categoryId} h2`);
     return categoryElement && categoryElement.textContent ? categoryElement.textContent.trim() : categoryId;
   }
-  function initSearch(): void {
+  function initSearch() {
     if (!searchInput) return;
-    searchInput.addEventListener('input', (e: Event) => {
-      const target = e.target as HTMLInputElement;
-      const query = target?.value?.toLowerCase() || '';
-      if (!query) {
-        searchResults?.classList.add('hidden');
-        return;
-      }
-      const results: SearchResult[] = [];
-      allCards.forEach(card => {
-        const title = card.querySelector('h3')?.textContent?.toLowerCase() || '';
-        const categoryId = card.getAttribute('data-category') || '';
-        const url = card.getAttribute('data-url') || '#';
-        const urlLower = url.toLowerCase();
-        const icon = card.querySelector('img')?.getAttribute('src') || '/icons/default.svg';
-        if (title.includes(query) || urlLower.includes(query)) {
-          const categoryName = getCategoryNameById(categoryId);
-          results.push({
-            title: card.querySelector('h3')?.textContent || '',
-            description: card.querySelector('p')?.textContent || '',
-            categoryId,
-            categoryName,
-            url,
-            icon
-          });
+    searchInput.addEventListener('input', (e) => {
+      const target = e.target;
+      if (target instanceof HTMLInputElement) {
+        const query = target.value.toLowerCase() || '';
+        if (!query) {
+          searchResults?.classList.add('hidden');
+          return;
         }
-      });
-      if (results.length > 0) {
-        searchResults?.classList.remove('hidden');
-        let resultsHTML = '';
-        results.forEach(result => {
-          resultsHTML += `
-            <div class="p-3 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors cursor-pointer flex items-start">
-              <div class="w-10 h-10 mr-3 flex-shrink-0 flex items-center justify-center bg-gray-100 dark:bg-gray-700 rounded-md overflow-hidden">
-                <img src="${result.icon}" alt="${result.title} 图标" class="w-6 h-6" width="24" height="24" loading="lazy" onerror="this.src='/icons/default.svg'">
-              </div>
-              <div class="flex-grow">
-                <h4 class="font-medium text-gray-900 dark:text-gray-100">${result.title}</h4>
-                <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-1">${result.description}</p>
-                <span class="text-xs text-gray-500 dark:text-gray-500 mt-1">分类: ${result.categoryName}</span>
-              </div>
-            </div>
-          `;
-        });
-        if (searchResults) {
-          searchResults.innerHTML = resultsHTML;
-          const resultItems = searchResults.querySelectorAll('div.cursor-pointer');
-          resultItems.forEach((item, index) => {
-            item.addEventListener('click', () => {
-              const result = results[index];
-              if (result && result.url) {
-                window.location.href = result.url;
-              }
+        const results = [];
+        allCards.forEach(card => {
+          const title = card.querySelector('h3')?.textContent?.toLowerCase() || '';
+          const categoryId = card.getAttribute('data-category') || '';
+          const url = card.getAttribute('data-url') || '#';
+          const urlLower = url.toLowerCase();
+          const icon = card.querySelector('img')?.getAttribute('src') || '/icons/default.svg';
+          if (title.includes(query) || urlLower.includes(query)) {
+            const categoryName = getCategoryNameById(categoryId);
+            results.push({
+              title: card.querySelector('h3')?.textContent || '',
+              description: card.querySelector('p')?.textContent || '',
+              categoryId,
+              categoryName,
+              url,
+              icon
             });
+          }
+        });
+        if (results.length > 0) {
+          searchResults?.classList.remove('hidden');
+          let resultsHTML = '';
+          results.forEach(result => {
+            resultsHTML += `
+              <div class="p-3 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors cursor-pointer flex items-start">
+                <div class="w-10 h-10 mr-3 flex-shrink-0 flex items-center justify-center bg-gray-100 dark:bg-gray-700 rounded-md overflow-hidden">
+                  <img src="${result.icon}" alt="${result.title} 图标" class="w-6 h-6" width="24" height="24" loading="lazy" onerror="this.src='/icons/default.svg'">
+                </div>
+                <div class="flex-grow">
+                  <h4 class="font-medium text-gray-900 dark:text-gray-100">${result.title}</h4>
+                  <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-1">${result.description}</p>
+                  <span class="text-xs text-gray-500 dark:text-gray-500 mt-1">分类: ${result.categoryName}</span>
+                </div>
+              </div>
+            `;
           });
-        }
-      } else {
-        searchResults?.classList.remove('hidden');
-        if (searchResults) {
-          searchResults.innerHTML = `<div class="p-3 text-center text-gray-500 dark:text-gray-400">没有找到相关网站</div>`;
+          if (searchResults) {
+            searchResults.innerHTML = resultsHTML;
+            const resultItems = searchResults.querySelectorAll('div.cursor-pointer');
+            resultItems.forEach((item, index) => {
+              item.addEventListener('click', () => {
+                const result = results[index];
+                if (result && result.url) {
+                  window.location.href = result.url;
+                }
+              });
+            });
+          }
+        } else {
+          searchResults?.classList.remove('hidden');
+          if (searchResults) {
+            searchResults.innerHTML = `<div class="p-3 text-center text-gray-500 dark:text-gray-400">没有找到相关网站</div>`;
+          }
         }
       }
     });
   }
-  function initClickOutside(): void {
-    document.addEventListener('click', (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
-      if (target && (!target.closest('#search-container') && !target.closest('#search-toggle'))) {
+  
+  function initClickOutside() {
+    document.addEventListener('click', (e) => {
+      const target = e.target;
+      if (target instanceof HTMLElement && (!target.closest('#search-container') && !target.closest('#search-toggle'))) {
         searchResults?.classList.add('hidden');
       }
     });

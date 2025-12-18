@@ -158,8 +158,7 @@ const validCategories = Array.isArray(categories) ? categories : [];
       const offset = headerHeight + 20; 
       let currentSection = null;
       for (const section of sections) {
-        const sectionEl = section as HTMLElement;
-        if (sectionEl.offsetTop - offset <= scrollPosition) {
+        if (section instanceof HTMLElement && section.offsetTop - offset <= scrollPosition) {
           currentSection = section;
         } else {
           break;

@@ -7,19 +7,13 @@ import { SEO } from 'astro-seo';
 export const siteTitle = "Arctic导航站";
 export const siteDescription = "私人导航站";
 export const siteKeywords = "导航站, 个人导航, 收藏夹, 自部署书签, 开源导航, 轻量工具, 开发者工具, 自托管, 极简首页, 书签管理, 在线工具, 自定义导航";
-export interface Props {
-  title?: string;       
-  description?: string; 
-  ogImage?: string;     
-  canonicalURL?: string; 
-}
 const {
   title = siteTitle, 
   description = siteDescription, 
   ogImage, 
   canonicalURL: pageCanonicalURL, 
 } = Astro.props;
-let baseSiteURL: string;
+let baseSiteURL;
 if (Astro.site) {
   const siteStr = Astro.site.toString();
   baseSiteURL = siteStr.endsWith('/') ? siteStr.slice(0, -1) : siteStr;
@@ -112,7 +106,6 @@ const canonicalURL = new URL(Astro.url.pathname, baseSiteURL).href;
         }
         applyThemeImmediately();
       })();
-    </script>
     </script>
     <!-- 图标 -->
     <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />

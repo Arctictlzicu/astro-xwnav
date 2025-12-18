@@ -52,7 +52,7 @@ import ThemeIsland from '../Island/ThemeIsland.jsx';
   document.addEventListener('DOMContentLoaded', () => {
     let lastScrollY = window.scrollY;
     let scrollDirection = 'up';
-    let scrollTimer: ReturnType<typeof setTimeout> | null = null; 
+    let scrollTimer = null; 
     window.addEventListener('scroll', () => {
       const header = document.getElementById('main-header');
       if (!header) return; 
