@@ -9,7 +9,7 @@ WORKDIR /app
 RUN npm install -g pnpm@12.10.1
 
 # 复制项目配置文件
-COPY package.json pnpm-lock.yaml ./
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 
 # 安装项目依赖
 RUN pnpm install
