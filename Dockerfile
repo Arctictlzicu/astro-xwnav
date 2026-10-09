@@ -5,8 +5,8 @@ FROM node:18-alpine AS builder
 # 设置工作目录
 WORKDIR /app
 
-# 安装 pnpm
-RUN npm install -g pnpm
+# 安装 pnpm（固定版本：pnpm 11+ 改为 allowBuilds 审批机制，浮动安装会导致构建失败）
+RUN npm install -g pnpm@12.10.1
 
 # 复制项目配置文件
 COPY package.json pnpm-lock.yaml ./

@@ -1,0 +1,7 @@
+# pnpm 11 起，依赖的构建脚本（postinstall 等）默认被拒绝，
+# 且旧的 package.json `pnpm.onlyBuiltDependencies` 字段已不再被读取。
+# 未审批的构建脚本会让 `pnpm install` 直接失败（ERR_PNPM_IGNORED_BUILDS）。
+# 这里放行本项目需要的 esbuild / sharp。
+allowBuilds:
+  esbuild: true
+  sharp: true
