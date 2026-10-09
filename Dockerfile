@@ -35,8 +35,8 @@ COPY --from=builder /app/dist /usr/share/nginx/html
 # 我们将在下一步创建这个文件
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# 暴露容器的 80 端口
-EXPOSE 80
+# 暴露容器的 4321 端口（与 nginx.conf 的 listen 及 Openship 域名 targetPort 保持一致）
+EXPOSE 4321
 
 # 启动 Nginx 服务
 CMD ["nginx", "-g", "daemon off;"]
